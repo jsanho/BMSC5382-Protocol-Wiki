@@ -1,0 +1,332 @@
+<!--
+  Hit RUN to see this project in action!
+  
+  This project will auto-refresh as you edit the HTML, CSS and JS. See README.md for more info (including how to disable auto-refresh and install packages).
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/d88026a31a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+    <h1 class="title">Bacterial Culture and Plasmid Isolation for Transfection of HEK293 Cells</h1>
+    <p>This protocol is optimised for plasmid isolation using Thermofisher's ChargeSwitch-Pro Plasmid Miniprep Kit (#CS30010), followed by transfection using Thermofisher's Lipofectamine&trade; 2000 reagent (#11668019).
+    </p>
+      <h2 class="h2">Contents</h2>
+        <ul class="list3">
+          <li><a href="#baccoliso">
+            1. Bacterial Colony Isolation
+          </a></li>
+          <li><a href="#baccolinoc">
+            2. Bacterial Liquid Inoculation
+          </a></li>
+          <li><a href="#plasmidpurif">
+            3. Plasmid Purification from Bacteria Cell Pellet
+          </a></li>
+          <li><a href="#plasmidanal">
+            4. Plasmid Analysis and Validation
+          </a></li>
+          <li><a href="#transfection">
+            4. HEK293 transfection with Lipofectamine&trade; 2000 reagent
+          </a>
+          </li>
+        </ul>
+    <a id="baccoliso">
+    <h2 class="h2">1. Bacterial Colony Isolation</h2>
+          <br>
+    </a>
+    <ul class="list">
+      <li>Selective Antibiotic</li>
+      <li>Gel-loading Pipette Tips</li>
+      <li>15mL Centrifuge Tubes</li>
+      <li>LB Agar Powder</li>
+      <li>Sterile Petri Dishes (100mm)</li>
+      <li>Cell Culture Hood</li>
+      <li>Sterile water</li>
+    </ul>
+      <!-- step one -->
+    <p>1. Prepare at least 25ml of LB agar solution per petri dish with selective antibiotic at the recommended concentration for your bacteria. Pour 25ml LB agar per petri dish, to produce at least 3 plates.</p>
+    <div class="note"> <i class="fa-regular fa-lightbulb"></i> Following autoclaving, the agar flask (and any agar plates) should only be opened within a cell culture hood to prevent contamination.
+    </div>
+    <div class="step-one-container">
+    <a href="agar.html" class="card">
+        <h2>Preparing and Pouring Agar &rarr;</h2>
+      </a>
+    </div>
+    </section>
+
+    <!-- step two -->
+    <a id="agarmain">
+    <p>2. Dip a sterile gel loading tip into your bacterial agar stab so it touches the inside surface of the agar. </p>
+    <div class="container">
+      <div class="card2a">
+        <center>
+        <video autoplay loop muted src="images/Scraping animation.mp4" alt="Bacteria scraping animation" style="width:80%">
+        </video>
+        </centre>
+        <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Scraping bacteria from an agar stab. Use a sterile gel-loading tip.  
+      </div>
+    </div>
+    </a>
+  <a id="step-three">
+  <p>3. Streak the tip gently across 1/3 of an agar plate. Using a fresh tip per third, repeat the spreading motion across the plate.</p>
+  <div class="container">
+    <div class="card2a">
+      <center>
+      <video autoplay loop muted src="images/Streak animation.mp4" alt="Bacteria streaking animation" style="width:80%">
+      </video>
+      </centre>
+      <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Streaking bacteria across an agar plate. Use an individual gel-loading tip for each numbered streak. 
+    </div>
+  </div>
+  </a>
+    
+  <p>4. Incubate for 24-72 hours (37&deg;C, 5% CO<sub>2</sub>), until individual colonies can be seen.</p>
+
+    <p class="refhead">References</p>
+    <ul class="list3">
+       <li>Addgene, 2018. "Streaking and Isolating Bacteria on an LB Agar Plate". [Online]. [Accessed 26.04.2024]. Available from: https://www.addgene.org/protocols/streak-plate/ .</li>
+      <li>Son, MS; Taylor, RK. 2021. "Growth and Maintenance of <i>Escherichia coli</i> Laboratory Strains". <i>Current Protocols</i>. <b>1</b>(1), e20.</li>
+    <a id="baccolinoc">
+    <h2 class="h2">2. Bacterial Liquid Inoculation</h2>
+    </a>
+      <br>
+    <ul class="list">
+      <li>Selective Antibiotic Stock</li>
+      <li>Gel Loading Pipette Tips</li>
+      <li>15mL Centrifuge Tubes</li>
+      <li>LB medium</li>
+      <li>Shaking Incubator</li>
+      <li>Cell Culture Hood</li>
+    </ul>
+
+    <p>1. Check your agar plate has distinct, separate colonies to sample. It should look something like this.</p>
+    <div class="container">
+      <div class="card2a">
+        <center>
+        <img src="images/iso bacteria col.jpg" alt="Bacteria growth on streaked plate" width="80%">
+      </center>
+        <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Streaked agar plate with bacterial growth. Red circles show ideal colonies to inoculate in LB medium.
+      </div>
+    </div>
+    <p>2. If your plate is ready for liquid inoculation, prepare 12ml of luria broth containing your selective antibiotic.</p>
+    <p>3. Dispense 3ml of your prepared luria broth per centrifuge tube, for 3 tubes total. Label them A, B, and Control (C).</p>
+    <p>4. Use a sterile gel loading tip to sample a single, distinct colony as shown in step 1. Drop the tip into tube A.</p>
+    <p>5. Repeat step 4, sampling a different colony into tube B.
+    </p>
+    <p class="note"> <i class="fa-regular fa-lightbulb"></i> 
+ Plasmid expression by bacteria can vary between colonies; two samples allow you to choose the colony with greater plasmid expression. You may isolate more than 2 colonies, but you will have to purify plasmid DNA from each individual colony you sample.
+      </p>
+    <p>6. Drop an unused, sterile pipette tip into tube C.</p>
+    <div class="container">
+      <div class="card2a">
+        <center>
+        <video autoplay loop muted src="images/colony isolation.mp4" alt="Colony isolation" width="80%">
+      </center>
+        <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Liquid inoculation of individual bacterial colonies. Tube C is a clean sterile pipette tip, acting as a contamination control - there should be no bacterial growth in this tube following incubation.
+      </div>
+    </div>
+      <p>7. Screw tube caps on loosely to allow airflow. Place tubes in a shaking incubator (37&deg;C, 5% CO<sub>2</sub>, 300rpm) for 8 hours. These are your starter cultures. </p>
+    <p>8. Check your tubes - A & B should be cloudy with bacteria, and C should be clear. </p>
+    <p class="note"> <i class="fa-regular fa-lightbulb"></i> If they are not, repeat the protocol from <a class="notebutton" href="index.html#agarmain">step 2</a> onwards as your liquid cultures are likely to be contaminated (you have made enough agar plates for 2 extra attempts, if needed).
+       <p>9. Before retrieving your starter cultures from the shaking incubator, prepare LB medium with your selection antibiotic added:
+         <ul class="list2">
+         <li>2-5ml per 15ml centrifuge tube </li>
+         <li>500&mu;l per cryovial.</li> 
+         </ul>Each centrifuge tube should produce enough bacteria for one run of plasmid purification, and 2 cryovials of each isolated colony (4 cryovials total between colonies A & B) should be sufficient for at least 10 plates per colony.
+  </p>
+      <a id="glycerolstocksmain">
+      <p>10. Make glycerol stocks of your bacteria for long-term storage.</p>
+      </a>
+    <div class="step-one-container">
+    <a href="glycerol.html" class="card">
+      <h2>Making Glycerol Stocks &rarr;</h2>
+    </a>
+    </div>
+ </p>
+    <p>11. Dilute starter cultures (1:500 dilution) in 2-5ml of LB broth per centrifuge tube and label them clearly. </p>
+    <div class="container">
+      <div class="card2a">
+        <center>
+        <img src="images/Culture flow diagram.jpg" alt="Starter culture tube division" width="80%">
+      </center>
+        <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Recommended division of starter culture, generating long-term glycerol stocks of bacteria stored at -80&deg;C and overnight cultures for plasmid isolation, stored for 12-16 hours in a shaking incubator (37&deg;C, 5% CO<sub>2</sub>, 300rpm). 
+      </div>
+    </div>
+    <p>12. Incubate overnight cultures for 12-16 hours in a shaking incubator (37&deg;C, 5% CO<sub>2</sub>, 300rpm).</p>
+    <div class="note"> <i class="fa-regular fa-lightbulb"></i> Remember to loosen the caps of all centrifuge tubes to allow airflow during incubation.
+    </div>
+    <p>13. Harvest overnight cultures by centrifuging them at 6000 x <i>g</i> for 15 minutes. Discard supernatant.</p>
+    <p>14. Cell pellets can be stored at -15 to -30&deg;C, or immediately used for plasmid isolation.</p>
+
+      <div class="refhead">References</div>
+      <ul class="list3">
+          <li>Thermofisher, 2006. "Chargeswitch&trade;-Pro Plasmid Miniprep Kit". [Online]. [Accessed 26.04.2024]. Available from: https://www.thermofisher.com/order/catalog/product/CS30010 .</li>
+
+      <a id="plasmidpurif">
+    <h2 class="h2">3. Plasmid Purification from Bacteria Cell Pellet</h2>
+      </a>
+      <br>
+    <ul class="list">
+      <li>Bacteria cell pellet</li>
+      <li>Chargeswitch&trade;-Pro Plasmid Miniprep Kit (Thermofisher, #CS30010)</li>
+      <li>Centrifuge</li>
+    </ul>
+
+    <p>Before beginning this part of the protocol, ensure the kit is set up: the whole volume of RNase A should be added to the resuspension buffer, and the lysis buffer may need warming to 37&deg;C to dissolve any precipitate.</p>
+    <p>1. Resuspend the bacterial cell pellet in 250&mu;l resuspension buffer. Pipette up and down until no clumps are visible.</p>
+    <p>2. Add 250&mu;l of lysis buffer. mix by inverting 6 times, until the solution is viscous. Do not mix by vortexing.</p>
+    <div class="note"><i class="fa-regular fa-lightbulb"></i> Do not mix by vortexing.
+    </div>
+    <p>3. Incubate at room temperature for 2-5 minutes.</p>
+    <div class="note"><i class="fa-regular fa-lightbulb"></i> Do not incubate for any longer than 5 minutes.
+      </div>
+    <p>4. Add 250&mu;l precipitation buffer. Mix by inversion until solution is homogenous and a white precipitate has formed.</p>
+    <div class="note"><i class="fa-regular fa-lightbulb"></i> This step precipitates large, non-DNA cell components so they can be pelleted by centrifugation.
+      </div>
+    <p>5. Centrifuge at maximum speed for 10 minutes to pellet cell debris.</p>
+    <p>6. Carefully transfer supernatant to a Chargeswitch&trade;-Pro Miniprep Column inserted in a collection tube.</p>
+    <p>7. Centrifuge the tube and column at max speed for 30-60 seconds.</p>
+    <div class="note"><i class="fa-regular fa-lightbulb"></i> This step pulls DNA and other small molecules in the supernatant through the Chargeswitch membrane. At lower pH, the membrane is positively charged, so binds the negative backbones of nucleic acids.
+      </div>
+    <p>8. Discard the flow through from the collection tube and replace the Miniprep column in it.</p>
+    <p>9. Add 750&mu;l of wash buffer 1 to the column. Centrifuge the column at maximum speed for 30-60 seconds.</p>
+    <p>10. Discard the flow-through from the collection tube, re-insert the Miniprep column into the same collection tube.</p>
+    <p>11. Add 250&mu;l of wash buffer 2 to the column. Centrifuge the column/collection tube at maximum speed for 30-60s.</p>
+    <p>12. Discard the flow-through <i>and</i> the collection tube.</p>
+    <div class="note"><i class="fa-regular fa-lightbulb"></i> All DNA is now bound to the Miniprep column and non-nucleic acids have been washed off the column as well.
+      </div>
+    <p>13. Insert the Miniprep column into an elution tube. Add 50-100&mu;l elution buffer.</p>
+    <p>14. Centrifuge the column/elution tube at maximum speed for 30-60 seconds.</p>
+    <p>14. Remove column and transfer the eluate back into the same column.</p>
+    <p>15. Centrifuge the column/elution tube at maximum speed for 30-60s.</p>
+    <a id="dnaconcmain">
+    <p>16. The eluate now contains your plasmid DNA. Measure UV absorbance at 260nm to quantify DNA concentration.</p>
+    </a>
+    <div class="step-one-container">
+      <a href="DNAconc.html" class="card">
+        <h2>Measuring DNA concentration using a Nanodrop Spectrophotometer &rarr;</h2>
+      </a>
+    </div>
+
+      <p>Store purified DNA at 4&deg;C for immediate use or -20&deg;C for long-term storage.</p>
+      <a id="plasmidanal">
+    <h2 class="h2">4. Plasmid Analysis and Verification</h2>
+      </a>
+      <br>
+    <ul class="list">
+      <li>Agarose powder</li>
+      <li>Gel-loading pipette tips</li>
+      <li>DNA loading dye</li>
+      <li>DNA ladder</li>
+      <li>DNA samples</li>
+      <li>Restriction enzymes</li>
+      <li>SYBR-safe</li>
+      <li>Casting tray, well comb, gel box</li>
+      <li>5X TAE buffer (24.2g Tris-base, 5.71ml acetic acid, 10ml 0.5M EDTA, in 1l distilled water).</li>
+    </ul>
+    <a id="Restrictionmain">
+    <p>Before analysis of your isolated plasmids, pick and order appropriate restriction enzymes for your plasmid. 2 enzymes, each with at least 1 cut site on your plasmid, would be appropriate.
+    </p>
+    </a>
+      <div class="step-one-container">
+        <a href="Choosing Restriction Enzymes.html" class="card">
+          <h2>Choosing Restriction Enzymes &rarr;</h2>
+        </a>
+        </div>
+  <p>Before beginning this protocol, ensure you have 1l of 1X TAE buffer ready to make gels and use as running buffer. You can make this by mixing 200ml of the 5X TAE buffer with 800ml of distilled water.</p>
+      <a id="agarosemain">
+    <p>1. Make agarose solution and pour gel.</p>
+    <div class="step-one-container">
+      <a href="agarose.html" class="card">
+        <h2>Making Agarose Gels for DNA electrophoresis &rarr;</h2>
+      </a>
+      </div>
+    </a>
+    <p>2. While the agarose gel is setting, prepare your DNA digests on ice.</p>
+    <div class="container">
+      <div class="card2a">
+        <center>
+        <img src="images/Well table.png" alt="restriction enzyme volumes" width="80%">
+      </center>
+        <p class="legend"> <i class="fa-regular fa-lightbulb"></i> Preparation of plasmid samples for DNA electrophoresis. This table is specific to Thermofisher Anza&trade; restriction enzymes and Trackit&trade; DNA ladder (Eco32I: #IVGN0266, XmaJI: #IVGN0154, DNA ladder: #10488085. These come with red buffer for tracking samples in agarose gel electrophoresis and different enzymes are compatible with the same buffer. 
+        </p>
+        <p class="legend"> Consult product manual if using different restriction enzymes.
+          </p>
+      </div>
+    </div>
+    <p>3. Incubate DNA digests at 37&deg;C for 15 minutes. Leave the DNA ladder on ice.</p>
+    <p>4. When the agarose gel has set and DNA has been digested, fill the running tank with TAE buffer so it covers the gel.</p>
+    <p>5. Load wells of agarose gel with digested DNA samples.</p>
+    <div class="note"> <i class="fa-regular fa-lightbulb"></i> Carefully write down/plan which sample has been loaded into which well.
+    </div>
+    <p>6. Place lid on running tank and run electrophoresis at 100V for 30-60 minutes, until tracking dyes are no more than 80% across the gel.</p>
+    <div class="note"> <i class="fa-regular fa-lightbulb"></i> Some loading/tracking dyes have multiple dyes within that travel at different speeds dependent on molecular weight.  Check your dye to determine which colour best reflects the molecular weight of your expected products.
+      </div>
+    <p>7. Image the gel with UV light. Compare your results with your <a class="notebutton" href="Choosing Restriction Enzymes.html#expectedresults">expected results</a> to verify the identity of your isolated plasmid.
+    </p>
+
+        <a id="transfection">
+        <h2 class="h2">5. HEK293 Transfection</h2>
+          </a>
+          <br>
+        <ul class="list">
+          <li>Purified plasmid DNA</li>
+          <li>6-well plate</li>
+          <li>Lipofectamine&trade; 2000 Reagent (Thermofisher, #11668019)</li>
+          <li>Opti-MEM medium (Thermofisher, #31985062)</li>
+          <li>Dulbecco's Modified Eagle Medium (DMEM)</li>
+          <li>1.5ml Eppendorfs</li>
+          <li>Proliferative HEK293 cells</li>
+          <li>0.25% Trypsin solution</li>
+          <li>Phosphate-buffered saline (PBS)</li>
+        </ul>
+        <a id="cellculturemain"></a>
+        <p>1. Passage HEK293s from their previous vessel. Seed them into a 6-well plate so they are 70-90% confluent on the day of transfection. Seeding 2 wells is advisable for multiple attempts at transfection.</p>
+      </a>
+        <div class="note"> <i class="fa-regular fa-lightbulb"></i> 800 x 10<sup>5</sup> HEK293 cells per well of a 6 well plate should produce enough cells overnight for good transfection, but double check how quick your HEK293 cells have been growing as this is just a guideline.
+          </div>
+        <br>
+        <div class="step-one-container">
+          <a href="Cell Culture + Seeding.html" class="card">
+            <h2>Cell culture and seeding &rarr;</h2>
+          </a>
+          </div>
+      <p>2. On the day of transfection, dilute 12&mu;l of lipofectamine reagent in 150&mu;l of opti-MEM medium for each well.</p>
+      <p>3. Dilute 3.5&mu;g of plasmid DNA in 175&mu;l of opti-MEM medium for each well.</p>
+      <p>4. Add diluted lipofectamine reagent to diluted DNA in 1:1 ratio. Incubate at room temperature for 5 minutes.</p>
+      <p>5. Add 250&mu;l of lipid-DNA mixture to the existing medium in each well.</p>
+      <p>6. Incubate cells for 1-3 days (37&deg;C, 5% CO<sub>2</sub>).
+      </p>
+      <p>7. After the 1-3 days, cells may need passaging to  a larger vessel. This is also a good time to select transfected cells; most engineered plasmids will code for specific antibiotic resistance in mammalian cells, or for fluorescence (for example). 
+      </p>
+        <p>Incorporating the antibiotic into medium, or sorting fluorescent cells using flow cytometry and cell sorting techniques, can select successfully transfected cells from non-transfected ones.
+      </p>
+
+    <p class="refhead">References</p>
+        <ul class="list3">
+          <li>Thermofisher, 2013. "Lipofectamine 2000 Reagent Product Manual". [Online]. [Accessed: 26.04.2024]. Available at: https://www.thermofisher.com/order/catalog/product/11668500?SID=srch-srp-11668500</li>
+        </ul>
+      
+        
+<p>&copy; Joe Johns</p>
+  <script type="module" src="script.js"></script>
+
+  <!--
+    This script places a badge on your repl's full-browser view back to your repl's cover
+    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+    teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+      </main>
+</body>
+
+</html>
