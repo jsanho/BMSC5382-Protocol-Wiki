@@ -156,7 +156,7 @@ p {
   padding: 0.5rem 2rem;
   text-align: left; */
   color: inherit;
-  /* text-indent: 0rem; */
+  list-style-type: square;
 }
 .list2{
   padding: 0.5rem 2rem;
@@ -164,12 +164,13 @@ p {
   color: inherit;
   font-size:1rem;
 }
+
 .list3{
   /* margin-left: 5rem; */
   padding: 0.5rem 2rem;
   text-align: left;
   color: inherit;
-  list-style-type: none
+  list-style-type: none 
   /* text-indent: 0rem; */
 }
 
