@@ -154,8 +154,8 @@ p {
   border-radius:5px;
   /* margin-left: 5rem; */
   padding: 0.5rem 2rem;
-  text-align: left; */
-  list-style-type: square;
+  text-align: left;
+  list-style-type:square;
 }
 .list2{
   padding: 0.5rem 2rem;
